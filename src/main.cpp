@@ -9,7 +9,7 @@
 #include "route_planner.h"
 
 using namespace std::experimental;
-test
+
 static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
 {   
     std::ifstream is{path, std::ios::binary | std::ios::ate};
